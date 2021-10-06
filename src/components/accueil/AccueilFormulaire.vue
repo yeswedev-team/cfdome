@@ -7,7 +7,7 @@
       method="POST"
       class="accueil-formulaire"
     >
-      <input type="hidden" name="subject" value="Nouvelle demande de contact via CFDome">
+      <input type="hidden" name="subject" value="Nouvelle demande de contact via My CFDome">
       <h3>être recontacté(e)* :</h3>
 
       <label for="prenom" class="accueil-formulaire-label">
@@ -30,9 +30,9 @@
         <input type="email" name="email" required>
       </label>
 
-      <label for="quantite" class="accueil-formulaire-label">
-        <span>Quantité désirée *</span>
-        <input type="number" name="quantite" min="1" required>
+      <label for="telephone" class="accueil-formulaire-label">
+        <span>Téléphone *</span>
+        <input type="tel" name="telephone" required>
       </label>
 
       <p class="text-xs">

@@ -31,7 +31,7 @@
       </label>
 
       <label for="telephone" class="accueil-formulaire-label">
-        <span>Quantité désirée *</span>
+        <span>Téléphone *</span>
         <input type="tel" name="telephone" required>
       </label>
 

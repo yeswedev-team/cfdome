@@ -1,5 +1,5 @@
 <template>
   <div>
-    COUCOU HERO
+    Page en travaux
   </div>
 </template>

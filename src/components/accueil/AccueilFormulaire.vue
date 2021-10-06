@@ -30,9 +30,9 @@
         <input type="email" name="email" required>
       </label>
 
-      <label for="quantite" class="accueil-formulaire-label">
+      <label for="telephone" class="accueil-formulaire-label">
         <span>Quantité désirée *</span>
-        <input type="number" name="quantite" min="1" required>
+        <input type="tel" name="telephone" required>
       </label>
 
       <p class="text-xs">

@@ -5,9 +5,9 @@
       name="contact"
       action="/?form=success"
       method="POST"
-      subject="Nouvelle demande de contact via CFDome"
       class="accueil-formulaire"
     >
+      <input type="hidden" name="subject" value="Nouvelle demande de contact via CFDome">
       <h3>être recontacté(e)* :</h3>
 
       <label for="prenom" class="accueil-formulaire-label">

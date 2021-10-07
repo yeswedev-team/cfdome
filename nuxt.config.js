@@ -16,7 +16,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'CFDome...',
+        content: 'CFDome, l’abri gonflable pour chantier de piscine.',
       },
       { name: 'format-detection', content: 'telephone=no' }
     ],

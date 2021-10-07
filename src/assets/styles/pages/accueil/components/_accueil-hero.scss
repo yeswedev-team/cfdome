@@ -29,6 +29,7 @@
       line-height: 55px;
       font-weight: 900;
       margin-bottom: 20px;
+      letter-spacing: 1px;
 
       @media (max-width: $xl-break) {
         font-size: 35px;
@@ -39,7 +40,7 @@
     .accueil-hero-subtitle {
       color: white;
       font-size: 22px;
-      line-height: 28px;
+      line-height: 32px;
       font-weight: 600;
 
       @media (max-width: $xl-break) {

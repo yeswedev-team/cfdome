@@ -3,11 +3,13 @@
     <div class="accueil-hero-container ">
       <Container class="lg:flex pt-16">
         <div class="accueil-hero-text p-6">
-          <img
-            src="~assets/images/cfdome_logo_blanc.svg"
-            alt="Logotype de CF Group"
-            class="w-full mb-4 max-w-sm xl:max-w-md"
-          >
+          <a href="https://www.my-cfgroup.fr/fr/recherche?search=cfdome" target="_blank">
+            <img
+              src="~assets/images/cfdome_logo_blanc.svg"
+              alt="Logotype de CF Group"
+              class="w-full mb-4 max-w-sm xl:max-w-md"
+            >
+          </a>
           <h1 class="accueil-hero-title">
             <span class="sr-only">CFDome</span>
             l'abri gonflable pour <br>
@@ -16,6 +18,12 @@
           <p class="accueil-hero-subtitle">
             Que ce soit en construction, ou en rénovation, CFDome sécurise votre planning et assure votre trésorerie. On vous parie que vous vous demanderez comment vous avez travaillé sans jusqu'ici !
           </p>
+          <a
+            href="#video-de-presentation"
+            class="button button--white-orange inline-block w-fit-content"
+          >
+            Voir la vidéo de présentation
+          </a>
         </div>
         <div class="p-6">
           <AccueilFormulaire />

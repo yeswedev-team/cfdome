@@ -1,7 +1,7 @@
 .accueil-offre-bandeau {
   position: relative;
   overflow: hidden;
-  height: 25vh;
+  height: 20vh;
   background: $color-orange-extra-light;
   text-align: center;
 
@@ -20,8 +20,8 @@
 
   .accueil-offre-bandeau-title {
     color: $color-orange-light;
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 40px;
     font-weight: 900;
     text-transform: uppercase;
   }
@@ -32,8 +32,8 @@
     color: $color-black;
 
     .price {
-      font-size: 45px;
-      line-height: 50px;
+      font-size: 35px;
+      line-height: 40px;
       font-weight: 900;
     }
   }

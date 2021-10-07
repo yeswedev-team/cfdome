@@ -1,5 +1,8 @@
 <template>
-  <section class="accueil-youtube-bandeau py-12">
+  <section
+    id="video-de-presentation"
+    class="accueil-youtube-bandeau py-12"
+  >
     <Container>
       <iframe
         class="m-auto"

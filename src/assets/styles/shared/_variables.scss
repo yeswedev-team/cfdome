@@ -1,4 +1,13 @@
-// TODO
+/* ** COLORS ** */
+
+$color-red: #f03a2b;
+$color-red-darker: darken(#f03a2b, 10);
+$color-orange-extra-light: #fddebb;
+$color-orange-lighter: #fcd2a4;
+$color-orange-light: #f49425;
+$color-orange: #f18700;
+$color-grey-dark: #3c3c3b;
+$color-black: #3c3c3b;
 
 /* ** FONTS ** */
 $font-primary: 'Gilroy', sans-serif; // Available weights : 500 / 500 italic / 600 / 800 / 900
@@ -10,3 +19,11 @@ $transition-dynamic: all 0.4s cubic-bezier(.84,.02,.22,.99);
 $transition-dynamic-fast: all 0.2s cubic-bezier(.84,.02,.22,.99);
 // Easings
 $ease-dynamic: cubic-bezier(.84,.02,.22,.99);
+
+/* ** Breakpoints ** */
+$xs-break: 360px; // Tailwind custom
+$sm-break: 640px; // Tailwind
+$md-break: 768px; // Tailwind
+$lg-break: 1024px; // Tailwind
+$xl-break: 1280px; // Tailwind
+$xxl-break: 1536px; // Tailwind

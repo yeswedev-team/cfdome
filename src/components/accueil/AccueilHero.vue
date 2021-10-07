@@ -3,13 +3,11 @@
     <div class="accueil-hero-container ">
       <Container class="lg:flex pt-16">
         <div class="accueil-hero-text p-6">
-          <a href="https://www.my-cfgroup.fr/fr/recherche?search=cfdome" target="_blank">
-            <img
-              src="~assets/images/cfdome_logo_blanc.svg"
-              alt="Logotype de CF Group"
-              class="w-full mb-4 max-w-sm xl:max-w-md"
-            >
-          </a>
+          <img
+            src="~assets/images/cfdome_logo_blanc.svg"
+            alt="Logotype de CF Group"
+            class="w-full mb-4 max-w-sm xl:max-w-md"
+          >
           <h1 class="accueil-hero-title">
             <span class="sr-only">CFDome</span>
             l'abri gonflable pour <br>
@@ -41,7 +39,9 @@
             <p class="w-full text-center mb-1 text-lg">
               un produit
             </p>
-            <img src="~assets/images/cf-group-logo.svg" alt="Logotype de CF Group">
+            <a href="https://www.my-cfgroup.fr/fr/recherche?search=cfdome" target="_blank">
+              <img src="~assets/images/cf-group-logo.svg" alt="Logotype de CF Group">
+            </a>
           </div>
         </div>
       </div>

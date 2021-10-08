@@ -4,6 +4,8 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  ssr: false,
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'CFDome',
@@ -22,7 +24,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-GQMHND3YXZ',
+        async: true,
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -67,5 +75,10 @@ export default {
   tailwindcss: {
     cssPath: '~~/src/assets/styles/vendor/tailwind.css',
     configPath: '~~/tailwind.config.js',
+  },
+
+  env: {
+    GA_MEASUREMENT_ID: 'G-GQMHND3YXZ',
+    AXEPTIO_CLIENT_ID: '615d62eb6e2df966fcd2f92a',
   },
 }

@@ -6,7 +6,7 @@
     <AccueilFooter />
     <AccueilFormulaireModale
       v-if="showFormSuccessModal"
-      @hide="showFormSuccessModal = false"
+      @hide="hideSuccessModal"
     />
   </div>
 </template>
@@ -37,10 +37,15 @@ export default Vue.extend({
   },
 
   mounted() {
-    console.log(this.$route.query.form);
     if (this.$route.query.form && this.$route.query.form === 'success') {
       this.showFormSuccessModal = true;
     }
+  },
+
+  methods: {
+    hideSuccessModal() {
+      this.showFormSuccessModal = false;
+    },
   },
 });
 </script>

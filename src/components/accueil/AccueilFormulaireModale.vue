@@ -19,7 +19,7 @@
       <div class="flex justify-end">
         <button
           class="accueil-formulaire-modale-button flex-no-shrink px-5 py-2 mt-6 text-md shadow-sm hover:shadow-lg font-extrabold tracking-wider text-white rounded-lg"
-          @click="$emit('hide')"
+          @click="emitHide"
         >
           Ok
         </button>
@@ -27,3 +27,15 @@
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue';
+
+export default Vue.extend({
+  methods: {
+    emitHide() {
+      this.$emit('hide');
+    },
+  }
+});
+</script>

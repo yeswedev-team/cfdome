@@ -34,9 +34,7 @@ import Vue from 'vue';
 export default Vue.extend({
   methods: {
     emitHide() {
-      console.log('emitHide before');
       this.$emit('hide');
-      console.log('emitHide after');
     },
   }
 });

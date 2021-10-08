@@ -8,6 +8,7 @@
       class="accueil-formulaire"
     >
       <input type="hidden" name="subject" value="Nouvelle demande de contact via My CFDome">
+      <input name="form-name" value="contact" type="hidden">
       <h3>être recontacté(e)* :</h3>
 
       <label for="prenom" class="accueil-formulaire-label">

@@ -9,16 +9,31 @@ import Vue from 'vue';
 
 export default Vue.extend({
   mounted() {
-    // window.axeptioSettings = {
-    //   clientId: '615d62eb6e2df966fcd2f92a',
-    // };
+    this.initAxeptio();
+    this.initAnalytics();
+  },
 
-    // (function (d, s) {
-    //   var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-    //   e.async = true;
-    //   e.src = "//static.axept.io/sdk-slim.js";
-    //   t.parentNode.insertBefore(e, t);
-    // })(document, "script");
+  methods: {
+    initAxeptio() {
+      window.axeptioSettings = {
+        clientId: process.env.AXEPTIO_CLIENT_ID,
+      };
+
+      (function (d, s) {
+        var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+        e.async = true;
+        e.src = "//static.axept.io/sdk-slim.js";
+        t.parentNode.insertBefore(e, t);
+      })(document, "script");
+    },
+    initAnalytics() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', process.env.GA_MEASUREMENT_ID);
+    },
   },
 });
 </script>

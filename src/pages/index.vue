@@ -5,7 +5,7 @@
     <AccueilYoutubeBandeau />
     <AccueilFooter />
     <AccueilFormulaireModale
-      v-if="showFormSuccessModal"
+      v-show="showFormSuccessModal"
       @hide="hideSuccessModal"
     />
   </div>

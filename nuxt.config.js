@@ -4,7 +4,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'build',
 
-  ssr: false,
+  ssr: true,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

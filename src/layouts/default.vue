@@ -9,8 +9,6 @@ import Vue from 'vue';
 
 export default Vue.extend({
   mounted() {
-    console.log(process.env.GA_MEASUREMENT_ID);
-    console.log(process.env.AXEPTIO_CLIENT_ID);
     this.initAxeptio();
     this.initAnalytics();
   },

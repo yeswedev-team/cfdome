@@ -5,7 +5,7 @@
     <AccueilYoutubeBandeau />
     <AccueilFooter />
     <AccueilFormulaireModale
-      v-if="showFormSuccessModal"
+      v-if="showFormSuccessModal === true"
       @hide="hideSuccessModal"
     />
   </div>
@@ -44,11 +44,7 @@ export default Vue.extend({
 
   methods: {
     hideSuccessModal() {
-      console.log('hideSuccessModal before');
-      console.log(this.showFormSuccessModal);
       this.showFormSuccessModal = false;
-      console.log('hideSuccessModal after');
-      console.log(this.showFormSuccessModal);
     },
   },
 });

@@ -8,6 +8,7 @@
 
   @media (max-width: $lg-break) {
     height: auto;
+    background-image: none;
   }
 
   .accueil-hero-container {
@@ -22,6 +23,15 @@
   .accueil-hero-text {
     max-width: 590px;
     padding: 25px;
+
+    @media (max-width: $lg-break) {
+      max-width: none;
+      padding-top: 64px;
+      background-image: url('~assets/images/cf-dome-installation.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
     .accueil-hero-title {
       color: white;
@@ -51,7 +61,6 @@
   }
 
   .accueil-hero-sidebar-badges {
-    padding: 24px;
     background: rgba(255, 255, 255, 0.8);
 
     @media (max-width: $lg-break) {
@@ -94,9 +103,12 @@
     }
 
     .cf-group-logo {
-      width: 120px;
+      width: 100%;
+      padding: 24px;
+      background: white;
 
       @media (max-width: $lg-break) {
+        width: auto;
         margin-left: auto;
       }
       @media (max-width: $sm-break) {

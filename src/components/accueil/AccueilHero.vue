@@ -1,7 +1,7 @@
 <template>
   <section class="accueil-hero">
     <div class="accueil-hero-container ">
-      <Container class="lg:flex pt-16">
+      <div class="mx-auto lg:px-8 lg:max-w-6xl xl:max-w-6xl lg:flex lg:pt-16">
         <div class="accueil-hero-text p-6">
           <img
             src="~assets/images/cfdome_logo_blanc.svg"
@@ -23,10 +23,10 @@
             Voir la vidéo de présentation
           </a>
         </div>
-        <div class="p-6">
+        <div class="lg:p-6">
           <AccueilFormulaire />
         </div>
-      </Container>
+      </div>
       <div class="accueil-hero-sidebar-badges">
         <div class="accueil-hero-sidebar-badges-container lg:pt-16">
           <div class="badge badge--shadow">
@@ -51,11 +51,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import Container from '../shared/layouts/Container.vue';
 
 export default Vue.extend({
-  components: {
-    Container,
-  },
 });
 </script>

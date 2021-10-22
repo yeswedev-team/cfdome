@@ -5,7 +5,7 @@
       class="accueil-offre-bandeau-logo hidden lg:block"
     />
     <div class="flex flex-col items-center justify-center h-full relative z-10">
-      <h3 class="accueil-offre-bandeau-title mt-4 mb-3">
+      <h3 class="accueil-offre-bandeau-title mt-4">
         3 tailles disponibles
       </h3>
       <p class="accueil-offre-bandeau-text">
@@ -14,7 +14,7 @@
       <a href="#video-de-presentation">
         <ArrowDown
           :color="'white'"
-          class="mt-2 w-16 h-12 cursor-pointer hidden lg:block"
+          class="w-14 h-10 cursor-pointer hidden lg:block"
         />
       </a>
     </div>

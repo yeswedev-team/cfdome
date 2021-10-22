@@ -18,6 +18,11 @@
     @media (max-width: $lg-break) {
       flex-wrap: wrap;
     }
+    
+    .accueil-hero .accueil-hero-container > div:first-child {
+      padding: 0;
+      margin: auto;
+    }
   }
 
   .accueil-hero-text {

@@ -14,7 +14,7 @@
       <a href="#video-de-presentation">
         <ArrowDown
           :color="'white'"
-          class="w-14 h-10 cursor-pointer hidden lg:block"
+          class="mb-2 cursor-pointer hidden lg:block"
         />
       </a>
     </div>

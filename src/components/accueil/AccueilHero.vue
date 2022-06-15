@@ -30,9 +30,6 @@
       <div class="accueil-hero-sidebar-badges">
         <div class="accueil-hero-sidebar-badges-container lg:pt-16">
           <div class="badge badge--shadow">
-            <img src="~assets/images/fabrication-europeenne.svg" alt="Badge de la fabrication européenne">
-          </div>
-          <div class="badge badge--shadow">
             <img src="~assets/images/systeme-brevete.svg" alt="Badge du système breveté">
           </div>
           <div class="cf-group-logo lg:mt-auto">

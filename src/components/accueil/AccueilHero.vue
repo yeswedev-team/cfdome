@@ -37,7 +37,7 @@
               un produit
             </p>
             <a href="https://www.my-cfgroup.fr/fr/recherche?search=cfdome" target="_blank">
-              <img src="~assets/images/cf-group-logo.pdf" alt="Logotype de CF Group">
+              <img src="~assets/images/cf-group-logo.svg" alt="Logotype de CF Group">
             </a>
           </div>
         </div>

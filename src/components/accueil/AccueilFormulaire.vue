@@ -36,6 +36,16 @@
         <input type="tel" name="telephone" required>
       </label>
 
+      <label for="pays" class="accueil-formulaire-label">
+        <span>Pays *</span>
+        <input type="text" name="pays" required>
+      </label>
+
+      <label for="code_postal" class="accueil-formulaire-label">
+        <span>Code Postal *</span>
+        <input type="text" name="code_postal" required>
+      </label>
+
       <p class="text-xs">
         * Champs obligatoires
       </p>

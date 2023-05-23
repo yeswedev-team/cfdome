@@ -11,15 +11,17 @@
       <input name="form-name" value="contact" type="hidden">
       <h3>être recontacté(e)* :</h3>
 
-      <label for="prenom" class="accueil-formulaire-label">
-        <span>Prénom *</span>
-        <input type="text" name="prenom" required>
-      </label>
+      <div class="double-input-container">
+        <label for="prenom" class="accueil-formulaire-label">
+          <span>Prénom *</span>
+          <input type="text" name="prenom" required>
+        </label>
 
-      <label for="nom" class="accueil-formulaire-label">
-        <span>Nom *</span>
-        <input type="text" name="nom" required>
-      </label>
+        <label for="nom" class="accueil-formulaire-label">
+          <span>Nom *</span>
+          <input type="text" name="nom" required>
+        </label>
+      </div>
 
       <label for="societe" class="accueil-formulaire-label">
         <span>Société *</span>
@@ -36,15 +38,17 @@
         <input type="tel" name="telephone" required>
       </label>
 
-      <label for="code_postal" class="accueil-formulaire-label">
-        <span>Code Postal *</span>
-        <input type="text" name="code_postal" required>
-      </label>
+      <div class="double-input-container">
+        <label for="code_postal" class="accueil-formulaire-label">
+          <span>Code Postal *</span>
+          <input type="text" name="code_postal" required>
+        </label>
 
-      <label for="city" class="accueil-formulaire-label">
-        <span>Ville *</span>
-        <input type="text" name="city" required>
-      </label>
+        <label for="city" class="accueil-formulaire-label">
+          <span>Ville *</span>
+          <input type="text" name="city" required>
+        </label>
+      </div>
 
       <label for="pays" class="accueil-formulaire-label">
         <span>Pays *</span>

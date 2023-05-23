@@ -1,10 +1,12 @@
 .accueil-formulaire {
+  width: 400px;
   padding: 25px 25px 15px 25px;
   border-radius: 2px;
   background: $color-orange;
   color: white;
 
   @media (max-width: $lg-break) {
+    width: 100%;
     padding: 45px 25px 25px 25px;
   }
 
@@ -15,9 +17,16 @@
     margin-bottom: 15px;
   }
 
+  .double-input-container {
+    display: flex;
+    width: calc(100% + 10px);
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
   .accueil-formulaire-label {
     display: block;
-    width: 320px;
+    width: 100%;
     margin-bottom: 8px;
     font-size: 12px;
 
@@ -33,6 +42,12 @@
       color: $color-black;
       font-size: 16px;
     }
+  }
+
+  .double-input-container .accueil-formulaire-label {
+    width: calc(50% - 10px);
+    margin-right: 5px;
+    margin-left: 5px;
   }
 
   .accueil-formulaire-button {

@@ -63,7 +63,7 @@
         Envoyer
       </button>
 
-      <p class="text-xs italic mt-3">
+      <p class="text-xs italic mt-3 text-center">
         Ces informations ne sont pas communiquées à des tiers.
       </p>
     </form>

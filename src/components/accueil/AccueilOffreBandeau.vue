@@ -10,7 +10,7 @@
       </h3>
       <p class="accueil-offre-bandeau-text">
         à partir de <span class="price">5 195 € net HT</span> ou <span class="price">169,97 € net HT/mois</span> en LOA** <br/>
-         livraison incluse
+         livraison incluse (France métropolitaine, hors Corse et îles)
       </p>
       <a href="#video-de-presentation">
         <ArrowDown

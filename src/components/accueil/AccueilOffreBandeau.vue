@@ -9,7 +9,7 @@
         3 tailles disponibles
       </h3>
       <p class="accueil-offre-bandeau-text">
-        à partir de <span class="price">5 195 € net HT</span> ou <span class="price">169,97 € net HT/mois</span> en LOA** <br/>
+        à partir de <span class="price">169,97 € net HT/mois</span> en location <span class="price">sur 36 mois**</span> <br/>
          livraison incluse (France métropolitaine, hors Corse et îles)
       </p>
       <a href="#video-de-presentation">
